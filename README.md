@@ -5,16 +5,17 @@ React code written in *ES6* & *JSX*, and transpiled using *babel*
 
 
 ###Setup
-1. add images with the following relative URLs
+1. `cd` into the project folder
+2. add images with the following relative URLs
    * `public/img/logo.png`
    * `public/img/soundcloud.png`
 
-2. add your soundcloud cliend ID in the file `app/containers/app.container.js`
+3. add your soundcloud cliend ID in the file `app/containers/app.container.js`
   * replace `YOUR_SOUNDCLOUD_CLIENT_ID` with your client ID
 
-3. `cd` into the project folder and run `npm install`
+4. run `npm install`
 
-4. run these 2 commands simultaneously(in different terminal )-
+5. run these 2 commands simultaneously(in different terminal )-
   * `npm run watch` - to make `public/js/bundle.js` again on every js change
   * `npm start` - to start and live-reload the electron app on every change
 
