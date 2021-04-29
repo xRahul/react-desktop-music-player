@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+    timezone: Asia/Calcutta
+  open-pull-requests-limit: 50
+  ignore:
+  - dependency-name: react
+    versions:
+    - 15.7.0
+    - 17.0.1
+  - dependency-name: react-dom
+    versions:
+    - 0.14.8
+  - dependency-name: babelify
+    versions:
+    - 7.3.0
+  - dependency-name: react-sound
+    versions:
+    - 0.10.0
